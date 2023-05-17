@@ -38,6 +38,7 @@ const createUser = async(user)=>{
     } catch (error) {
         res.status(400).json({message :'error ocuurerd', error})
     }
+    
 }
 
 const updateUser = async(tableName, updateValue, where)=>{
